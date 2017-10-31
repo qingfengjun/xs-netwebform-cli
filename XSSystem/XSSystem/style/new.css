@@ -1,0 +1,28 @@
+﻿
+#main
+{
+    border: 2px solid #C0C0C0;
+    width: 1000px;
+    margin: auto;
+    padding: 20px;
+    text-align: center;
+}
+
+#main h3
+{
+    text-align: center;
+}
+#main p
+{
+    text-align: left;
+}
+#attach
+{
+    padding: 10px;
+    width: 800px;
+    border: 1px solid #BBBBFF;
+    background-color: #F7F7F7;
+    margin: auto;
+    text-align: left;
+}
+

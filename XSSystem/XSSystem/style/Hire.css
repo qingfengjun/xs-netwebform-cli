@@ -1,0 +1,49 @@
+﻿.cap {
+    height: 35px;
+    line-height: 35px;
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+    border-bottom-color: #dddddd;
+    margin-bottom: 10px;
+}
+
+.span1 {
+    float: left;
+    width: 54%;
+}
+
+.span2 {
+    float: left;
+    width: 15%;
+}
+
+.span3 {
+    float: left;
+    width: 15%;
+}
+
+.span4 {
+    float: right;
+    width: 15%;
+}
+
+.hireHead {
+    cursor: pointer;
+    margin-bottom: 5px;
+    height: 40px;
+    line-height: 40px;
+    color: #99B3FF;
+}
+
+.hireHeadOver {
+    background-color: #E9E9E9;
+}
+
+.hireContent {
+    display: none;
+}
+
+fieldset {
+    padding: 10px;
+    margin: 10px;
+}

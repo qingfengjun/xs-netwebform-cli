@@ -1,0 +1,48 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Main.master.cs" Inherits="xs_System.Page.P_Public.Main" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title></title>
+    <script src="/js/jquery-1.8.0.js" type="text/javascript"></script>
+    <script src="/js/main.js"></script>
+    <script src="/ckfinder/ckfinder.js" type="text/javascript"></script>
+    <script src="/ckeditor/ckeditor.js" type="text/javascript"></script>
+    <link href="/style/DataCss.css" rel="stylesheet" />
+    <link href="/style/sysCss.css" rel="stylesheet" />
+    <style type="text/css">
+        .location {
+            border: 1px solid #C0C0C0;
+            background-position: 20px 10px;
+            height: 40px;
+            width: 100%;
+            background-image: url('/images/location.png');
+            background-repeat: no-repeat;
+            margin-top: 20px;
+            text-align: left;
+            text-indent: 50px;
+            line-height: 40px;
+        }
+
+        .panding {
+            padding: 10px;
+        }
+    </style>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+        <div class="panding">
+            <div class="location">
+                <asp:SiteMapPath ID="SiteMapPath1" runat="server" SiteMapProvider="XmlSiteMapProvider">
+                </asp:SiteMapPath>
+            </div>
+            <br />
+            <asp:ContentPlaceHolder ID="ContentMain" runat="server">
+            </asp:ContentPlaceHolder>
+        </div>
+    </form>
+</body>
+</html>

@@ -1,0 +1,80 @@
+﻿body {
+    margin: auto;
+}
+
+#main {
+    width: 980px;
+    margin-right: auto;
+    margin-left: auto;
+    padding-right: 10px;
+    padding-left: 10px;
+}
+
+#nav {
+    margin: auto;
+    height: 80px;
+    width: 1000px;
+    line-height: 80px;
+    text-indent: 2em;
+    color: #0066FF;
+    font-weight: 400;
+    font-size: 25px;
+    font-family: 宋体;
+}
+
+#nav1 {
+    height: 10px;
+    background-color: #6699FF;
+}
+
+#img {
+    background-position: 0px 0px;
+    height: 350px;
+    width: 560px;
+    float: left;
+    background-image: url('../images/left.gif');
+    background-repeat: no-repeat;
+}
+
+#login {
+    border: 1px solid #C0C0C0;
+    height: 400px;
+    width: 350px;
+    float: left;
+    margin-top: 5px;
+}
+
+.logintable {
+    margin: 50px 0px 0px 0px;
+    color: #777;
+    font-size: 16px;
+    font-weight: 400;
+    font-family: 微软雅黑;
+}
+
+    .logintable tr {
+        height: 50px;
+        line-height: 50px;
+    }
+
+        .logintable tr td {
+            padding-left: 10px;
+        }
+
+.loginbtn {
+    border-style: none;
+    width: 300px;
+    height: 40px;
+    background-color: #6699FF;
+    color: #FFFFFF;
+    font-size: 16px;
+    font-weight: 400;
+    font-family: 微软雅黑;
+}
+
+.logininput {
+    border: 1px solid #C0C0C0;
+    width: 255px;
+    height: 30px;
+    line-height: 30px;
+}

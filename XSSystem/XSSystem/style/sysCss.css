@@ -1,0 +1,132 @@
+﻿/*表格样式的设置*/
+.xs_table {
+    width: 100%;
+    border-style: none;
+}
+
+    .xs_table tr {
+        border-style: none;
+        height: 50px;
+    }
+
+        .xs_table tr th {
+            border-style: none;
+        }
+
+        .xs_table tr td {
+            border-style: none;
+        }
+
+.xs_table_th {
+    background-color: #EEEEEE;
+    text-align: center;
+    border-style: none;
+}
+
+.xs_table_even {
+    border-width: 1px;
+    border-color: #C0C0C0;
+    background-color: #F0F0F0;
+    text-align: center;
+    border-style: dashed none none none;
+}
+
+.xs_table_odd {
+    background-color: #FFFFFF;
+    text-align: center;
+    border-style: none;
+}
+
+.xs_table_select {
+    background-color: #E6E6E6;
+    text-align: center;
+    border-style: none;
+}
+
+/*输入框的样式设定*/
+.button {
+    cursor: pointer;
+    height: 30px;
+    line-height: 30px;
+    border-style: none;
+    color: #FFFFFF;
+    background-color: #46A3FF;
+    padding-right: 10px;
+    padding-left: 10px;
+}
+
+    .button:hover {
+        background-color: #6FB7FF;
+    }
+
+.buttonCancle {
+    cursor: pointer;
+    height: 30px;
+    line-height: 30px;
+    border-style: none;
+    color: #FF0000;
+    background-color: #F1F1F1;
+    padding-right: 10px;
+    padding-left: 10px;
+}
+
+    .buttonCancle:hover {
+        background-color: #ECECEC;
+    }
+
+.inputText {
+    padding: 4px 4px 4px 4px;
+    border: solid 1px #dcdcdc;
+    color: #959595;
+    background-color: #f9f9f9;
+}
+
+.inputTextFocus {
+    padding: 4px 4px 4px 4px;
+    border: 1px solid #B2B2B2;
+    color: #959595;
+    background-color: #f9f9f9;
+}
+
+.inputTextError {
+    padding: 4px 4px 4px 4px;
+    border: 1px solid #FF0000;
+    color: #959595;
+    background-color: #f9f9f9;
+}
+
+/*设置分页的样式*/
+.xsPage {
+    text-align: center;
+    vertical-align: middle;
+    color: #0066FF;
+    font-size: 12pt;
+    width:1000px;
+}
+
+    .xsPage a {
+        margin: 5px;
+        border: 1px solid #A2A2A2;
+        width: 20px;
+        padding-bottom: 5px;
+        padding-top: 5px;
+        padding-left: 10px;
+        padding-right: 10px;
+        text-decoration: none;
+    }
+
+        .xsPage a:hover {
+            background-color: #3399FF;
+            color: #FFFFFF;
+        }
+
+.xsSelect {
+    background-color: #3399FF;
+    color: #FFFFFF;
+}
+
+/*必填样式*/
+.required
+{
+    color: Red;
+}

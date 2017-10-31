@@ -1,0 +1,213 @@
+﻿.qg-offerresults .productPic
+{
+    float: left;
+    margin-right: 10px;
+}
+.qg-offerresults .title
+{
+    margin-bottom: 10px;
+    font-size: 14px;
+}
+.qg-offerresults .leftDes
+{
+    width: 40%;
+    float: left;
+}
+.qg-offerresults .rightDes
+{
+    float: left;
+    width: 30%;
+}
+.qg-offerresults
+{
+    margin-bottom: 20px;
+}
+.qg-offerresults li
+{
+    padding: 10px;
+    border-bottom: 1px solid #eee;
+}
+.qg-offerresults li .productPic
+{
+    border: 1px solid #dfdfdf;
+    position: relative;
+}
+.qg-offerresults .title
+{
+    font-size: 15px;
+}
+.qg-offerresults .attribute
+{
+    color: #444;
+    line-height: 20px;
+    margin-bottom: 5px;
+}
+.qg-offerresults .attribute span
+{
+    padding-right: 5px;
+    padding-left: 2px;
+    border-right: 1px solid #444;
+}
+.qg-offerresults .attribute span.last
+{
+    border-right: 0;
+}
+.qg-offerresults .category
+{
+    margin-bottom: 5px;
+}
+.qg-offerresults .category span
+{
+    color: #888;
+}
+.qg-offerresults .category a
+{
+    padding-right: 5px;
+}
+.qg-offerresults .relatedProduct
+{
+    margin-bottom: 5px;
+}
+.qg-offerresults .relatedProduct span
+{
+    color: #888;
+}
+.qg-offerresults .relatedProduct a
+{
+    padding-right: 5px;
+}
+.qg-offerresults .leftDes .dealMount
+{
+    height: 18px;
+    margin-bottom: 8px;
+}
+.qg-offerresults .leftDes .dealMount span
+{
+    padding-right: 5px;
+}
+.qg-offerresults .leftDes
+{
+    margin-right: 2%;
+}
+.qg-offerresults .leftDes .viewPrice a
+{
+    background-color: #498fcd;
+    border-radius: 3px;
+    color: #fff;
+    display: block;
+    float: left;
+    height: 18px;
+    margin-left: 5px;
+    text-align: center;
+    width: 18px;
+}
+.qg-offerresults .rightDes
+{
+    padding-left: 2%;
+    border-left: 1px solid #eee;
+}
+.qg-offerresults .rightDes p
+{
+    margin-bottom: 6px;
+}
+.qg-offerresults .rightDes .companyName
+{
+    margin-bottom: 6px;
+}
+.qg-offerresults .rightDes .companyName .aliwangwang
+{
+    vertical-align: top;
+    border-bottom: 0 solid #444 !important;
+    padding-bottom: 0 !important;
+}
+.qg-offerresults .rightDes .companyName a:link
+{
+    color: #444;
+    padding-bottom: 1px;
+    text-decoration: none;
+    border-bottom-color: #444;
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+}
+.qg-offerresults .rightDes .companyName a:hover
+{
+    color: #ff7300;
+}
+.qg-offerresults .rightDes .companyName a:visited
+{
+    color: #1e50a2;
+}
+.qg-offerresults .rightDes .companyAdress
+{
+    color: #888;
+}
+.qg-offerresults .rightDes .jingyingMod span
+{
+    color: #888;
+}
+.qg-offerresults .rightDes .mainMange span
+{
+    color: #888;
+}
+.qg-offerresults .rightDes .mainMange a
+{
+    padding-right: 5px;
+}
+.qg-offerresults .rightDes .chengxintong .CreditYear
+{
+    font-weight: 700;
+    color: #c00;
+}
+.qg-offerresults .rightDes .sw-ui-icon-mincxt .CreditYear
+{
+    font-weight: 700;
+    color: #c00;
+}
+.qg-offerresults .rightDes .sw-ui-icon
+{
+    height: 20px;
+    margin-top: 3px;
+    overflow: hidden;
+}
+.qg-offerresults .rightDes .sw-ui-icon-mjdangan
+{
+    height: 16px;
+    text-align: center;
+    border-radius: 3px 3px 3px 3px;
+    vertical-align: top;
+    display: block;
+    float: left;
+    margin-left: 3px;
+    border-left: 1px solid #ddd;
+    padding-left: 2%;
+    vertical-align: top;
+}
+.qg-offerresults .rightDes .sw-ui-icon-mjdangan2
+{
+    vertical-align: top;
+}
+.qg-offerresults .rightDes .sw-ui-icon-mincxt
+{
+    padding-right: 2%;
+    border-right: 1px solid #DDD;
+    vertical-align: top;
+}
+.sw-ui-font-priceIcon
+{
+    color: #c00;
+    float: left !important;
+    font-family: Tahoma;
+    font-size: 16px;
+    font-weight: normal;
+    float: left;
+}
+.qg-offerresults .rightDes .sw-ui-icon-mincxt
+{
+    vertical-align: top;
+    float: left;
+}
+.qg-offerresults .rightDes .sm-offerResult-textTop
+{
+    vertical-align: top;
+    float: left;
+}

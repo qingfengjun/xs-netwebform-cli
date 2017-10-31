@@ -1,0 +1,323 @@
+﻿*
+{
+    list-style-type: none;
+    padding: 0px;
+    margin: 0px;
+    font-size: 12pt;
+    color: #000000;
+    text-decoration: none;
+}
+
+body
+{
+    padding: 0px;
+    margin: 0px;
+    text-align: center;
+}
+
+
+/*header*/
+#header
+{
+    width: 100%;
+    height: 100px;
+    background-image: url('../images/head.gif');
+    background-repeat: no-repeat;
+}
+
+#logo
+{
+    height: 100%;
+    float: left;
+    font-size: 25pt;
+    color: #808080;
+    font-family: 宋体;
+    text-align: left;
+    vertical-align: middle;
+    font-weight: bolder;
+    line-height: 100px;
+    padding-left: 10%;
+}
+
+#operate
+{
+    border: 1px dotted #C0C0C0;
+    height: 30px;
+    float: right;
+    margin-right: 20px;
+    margin-top: 30px;
+    text-align: left;
+    vertical-align: top;
+    line-height: 30px;
+}
+
+/*导航条*/
+#nav
+{
+    width: 100%;
+    height: 30px;
+    background-image: url('../images/nav.gif');
+    background-repeat: repeat-x;
+    line-height: 30px;
+}
+
+
+/*主要部分*/
+#main
+{
+    width: 100%;
+    margin-bottom: 10px;
+    margin-top: 5px;
+}
+
+
+
+/*主要的导航部分*/
+#sider
+{
+    border: 1px solid #C0C0C0;
+    background-position: 0px 0px;
+    width: 195px;
+    float: left;
+    height: auto;
+    text-align: left;
+    padding-top: 30px;
+    margin-left: 5px;
+}
+
+
+
+/*主要内容区*/
+#container
+{
+    width: 100%;
+    float: right;
+    margin-left: -202px;
+}
+
+#location
+{
+    border: 1px solid #C0C0C0;
+    background-position: 20px 10px;
+    height: 40px;
+    width: 100%;
+    background-image: url('../images/location.png');
+    background-repeat: no-repeat;
+    margin-top: 20px;
+    text-align: left;
+    text-indent: 50px;
+    line-height: 40px;
+}
+
+#content
+{
+    border: 1px solid #C0C0C0;
+    margin-left: 210px;
+    margin-right: 10px;
+}
+
+#ContentPlace
+{
+    width: 90%;
+    margin-left: 5%;
+    text-align: left;
+    height: auto;
+}
+
+#clear
+{
+    clear: both;
+    background-color: #0000FF;
+}
+/*下部说明*/
+#footer
+{
+    height: 50px;
+    width: 100%;
+    text-align: center;
+    background-color: #F5F5F5;
+    line-height: 50px;
+}
+
+
+#searchBox
+{
+    background-position: 0px;
+    height: 30px;
+    width: 250px;
+    line-height: 30px;
+    font-size: 15pt;
+    color: #9D9D9D;
+    background-image: url('../images/searchLittle.jpg');
+    background-repeat: no-repeat;
+    text-indent: 40px;
+}
+
+#searchBtn
+{
+    height: 30px;
+    width: 70px;
+}
+
+a
+{
+    color: #336699;
+}
+
+a:hover
+{
+    text-decoration: underline;
+}
+
+/**/
+.none
+{
+    display: none;
+}
+
+.operate h3
+{
+    font-family: "Microsoft YaHei" ,微软雅黑;
+    font-size: 16px;
+    background: #f7f7f7;
+    height: 43px;
+    line-height: 43px;
+    padding-left: 12px;
+}
+
+.operate ul li
+{
+    display: inline;
+}
+
+.operate ul li a
+{
+    background: url(/images/bg1.png) no-repeat 150px 18px;
+    padding-left: 30px;
+    text-decoration: none;
+    font-size: 14px;
+    color: #555;
+    display: block;
+    height: 43px;
+    line-height: 43px;
+    border-bottom: 1px dotted #d2d2d2;
+}
+
+.operate ul li a.noline
+{
+    border-bottom: none;
+}
+
+.operate ul li a:hover
+{
+    color: #8caf00;
+}
+
+.operate ul li a.selected:hover
+{
+    color: #fff;
+}
+
+.operate ul li .selected
+{
+    background-color: #8caf00;
+    background-position: 150px -9px;
+    color: #fff;
+}
+
+.operate ul li
+{
+    border-bottom: 1px dotted #d2d2d2;
+    display: inline-block;
+    width: 100%;
+    position: relative;
+    min-height: 43px;
+    _height: 43px;
+    z-index: 10;
+    zoom: 1;
+}
+
+.operate ul li h4
+{
+    cursor: pointer;
+    background: url(/images/bg3.png) no-repeat 150px 18px;
+    padding-left: 30px;
+    text-decoration: none;
+    font-size: 14px;
+    color: #555;
+    display: block;
+    line-height: 43px;
+    font-weight: normal;
+}
+
+.operate ul li.noline
+{
+    border-bottom: none;
+}
+
+.operate ul li h4:hover
+{
+    color: #8caf00;
+    text-decoration: underline;
+}
+
+.operate ul li.selected h4
+{
+    background-position: 150px -37px;
+    border-bottom: 1px dotted #d2d2d2;
+}
+
+.operate ul li a
+{
+}
+
+.operate ul li .on a
+{
+    color: #8caf00;
+    font-weight: bold;
+}
+
+.operate ul li a:hover
+{
+    color: #8caf00;
+    text-decoration: underline;
+}
+
+.bg-color
+{
+    background-color: #8caf00;
+}
+
+.operate ul
+{
+}
+
+.operate li .list-item
+{
+    padding: 5px 0;
+    position: relative;
+    zoom: 1;
+}
+
+.operate li .list-item p
+{
+    padding-left: 8px;
+    background: url(/images/ico_li.png) no-repeat 60px center;
+}
+
+.operate li .list-item a
+{
+    background: none;
+    border: none;
+    color: #333333;
+    display: block;
+    height: 32px;
+    line-height: 32px;
+    margin: 0 -1px 0 1px;
+    padding-left: 60px;
+    position: relative;
+    text-decoration: none;
+    font-size: 12px;
+}
+
+

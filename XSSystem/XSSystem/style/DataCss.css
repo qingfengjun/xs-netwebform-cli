@@ -1,0 +1,59 @@
+﻿
+#page
+{
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #99CCFF;
+    width: 1000px;
+}
+.dataCss
+{
+    margin-top: 20px;
+    border-bottom-style: dotted;
+    border-right-width: thin;
+    border-bottom-width: 1px;
+    padding: 5px;
+}
+.dataHead
+{
+}
+.dataMain
+{
+    padding: 10px;
+    text-indent: 2pt;
+    font-size: 11pt;
+}
+.dataFoot
+{
+    height: 30px;
+}
+.footleft
+{
+    width: 50%;
+    float: left;
+    text-align: left;
+    color: #C0C0C0;
+}
+.footright
+{
+    width: 50%;
+    float: left;
+    text-align: right;
+}
+
+.typeCss
+{
+    width: 90%;
+    text-align: center;
+}
+.typeCss tr th
+{
+    background-color: #E4E4E4;
+}
+.typeCss tr td
+{
+    border-bottom-style: dotted;
+    border-bottom-width: 1px;
+    border-bottom-color: #9B9B9B;
+}
+

@@ -1,0 +1,60 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<siteMap xmlns="http://schemas.microsoft.com/AspNet/SiteMap-File-1.0" >
+  <siteMapNode url="~/Page/P_Public/Main.aspx" title="主页"  description="">
+
+    <siteMapNode  title="系统管理" >
+      <siteMapNode title="群组管理" url="~/Page/P_System/Group.aspx">
+        <siteMapNode title="新增群组" url="~/Page/P_System/Group_Add.aspx"></siteMapNode>
+        <siteMapNode title="修改群组" url="~/Page/P_System/Group_Update.aspx"></siteMapNode>
+        <siteMapNode title="群组功能" url="~/Page/P_System/Group_Function.aspx"></siteMapNode>
+      </siteMapNode>
+
+      <siteMapNode title="用户管理" url="~/Page/P_System/User.aspx">
+        <siteMapNode title="新增用户" url="~/Page/P_System/User_Add.aspx">
+        </siteMapNode>
+      </siteMapNode>
+      <siteMapNode title="用户操作" url="~/Page/P_System/Operate.aspx">
+      </siteMapNode>
+    </siteMapNode>
+
+    <siteMapNode title="留言管理" url="~/Page/P_Leave/Leave.aspx">
+    </siteMapNode>
+
+    <siteMapNode title="密码修改" url="~/Page/P_Public/ChangePassword.aspx">
+    </siteMapNode>
+
+    <siteMapNode title="招聘中心" >
+      <siteMapNode title="招聘信息" url="~/Page/P_Hire/Hire.aspx">
+        <siteMapNode title="新增招聘" url="~/Page/P_Hire/Hire_Add.aspx">
+        </siteMapNode>
+        <siteMapNode title="维护招聘" url="~/Page/P_Hire/Hire_Update.aspx">
+        </siteMapNode>
+      </siteMapNode>
+      <siteMapNode title="招聘模板" url="~/Page/P_Hire/hireTemplate.aspx">
+      </siteMapNode>
+    </siteMapNode>
+
+    <siteMapNode title="信息维护" url="~/Page/P_Message/Message.aspx">
+    </siteMapNode>
+
+    <siteMapNode title="产品中心">
+      <siteMapNode title="产品类别" url="~/Page/P_Product/ProductType.aspx">
+      </siteMapNode>
+      <siteMapNode title="产品发布" url="~/Page/P_Product/Product_Add.aspx">
+      </siteMapNode>
+      <siteMapNode title="产品维护" url="~/Page/P_Product/Product.aspx">
+      </siteMapNode>
+    </siteMapNode>
+
+    <siteMapNode title="公司动态">
+      <siteMapNode title="动态发布" url="~/Page/P_News/News_Edit.aspx">
+      </siteMapNode>
+      <siteMapNode title="动态维护" url="~/Page/P_News/News_Query.aspx">
+      </siteMapNode>
+      <siteMapNode title="动态类别" url="~/Page/P_News/NewsType.aspx">
+      </siteMapNode>
+    </siteMapNode>
+
+  </siteMapNode>
+
+</siteMap>

@@ -1,0 +1,50 @@
+﻿ul
+{
+    list-style: none;
+}
+li
+{
+    border-bottom: 1px solid #EEE;
+    height: 206px;
+    padding-bottom: 5px;
+    margin-bottom: 5px;
+}
+li .productpic
+{
+    border: 1px ridge #C0C0C0;
+    float: left;
+    text-align: center;
+    overflow: hidden;
+    font-size: 0;
+    width: 185px;
+    margin-right: 10px;
+}
+li .productpic img
+{
+    height: 200px;
+    width: 180px;
+}
+li .productDesc
+{
+    float: left;
+    text-align: left;
+    width: 70%;
+    display: block;
+}
+li .productDesc .title
+{
+    height: 30px;
+    display: block;
+}
+.desc
+{
+    height: 140px;
+    display: block;
+}
+.edit
+{
+    height: 30px;
+    text-align: right;
+    position: relative;
+    bottom: 2px;
+}
